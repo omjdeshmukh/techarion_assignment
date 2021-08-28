@@ -8,7 +8,7 @@ import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 
 function App() {
   return (
-    <div className="App">
+    <div>
       <Router>
         <div>
           <nav>
@@ -26,10 +26,10 @@ function App() {
           </nav>
 
           <Switch>
-            <Route  path="/counter">
+            <Route path="/counter">
               <Counter />
             </Route>
-            <Route  path="/cards">
+            <Route path="/cards">
               <Cards />
             </Route>
             <Route exact path="/">
